@@ -4,87 +4,206 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Choose A Life You Love</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.7;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
             color: #333;
-            background-color: #f8f9fa;
+            background: linear-gradient(135deg, #F0FFFE 0%, #E6FFFA 100%);
+            min-height: 100vh;
         }
         .container {
             background-color: white;
             padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(46, 184, 196, 0.15);
         }
         h1 {
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
+            color: #2EB8C4;
+            border-bottom: 3px solid #2EB8C4;
+            padding-bottom: 15px;
+            font-size: 2em;
         }
         h2 {
-            color: #34495e;
-            margin-top: 30px;
+            color: #2D3748;
+            margin-top: 35px;
+            font-size: 1.3em;
         }
         h3 {
-            color: #5a6c7d;
+            color: #4A5568;
         }
         .last-updated {
-            color: #7f8c8d;
+            color: #718096;
             font-style: italic;
+            font-size: 0.95em;
         }
         .highlight {
-            background-color: #fff3cd;
-            padding: 15px;
-            border-left: 4px solid #ffc107;
-            margin: 20px 0;
+            background: linear-gradient(135deg, #6FE7D2 0%, #45C4B0 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 25px 0;
+        }
+        .highlight strong {
+            color: white;
+        }
+        .highlight p {
+            margin: 8px 0;
         }
         .developer-note {
-            background-color: #e7f3ff;
-            padding: 20px;
-            border-left: 4px solid #3498db;
-            margin: 30px 0;
-            border-radius: 8px;
+            background-color: #FFF5F5;
+            padding: 25px;
+            border-left: 4px solid #E53E3E;
+            margin: 35px 0;
+            border-radius: 0 12px 12px 0;
+        }
+        .developer-note h2 {
+            color: #E53E3E;
+            margin-top: 0;
         }
         ul {
-            line-height: 1.8;
+            line-height: 2;
+        }
+        li {
+            margin-bottom: 8px;
         }
         .footer {
             text-align: center;
-            color: #7f8c8d;
+            color: #718096;
             margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #e0e0e0;
+            padding-top: 25px;
+            border-top: 1px solid #E2E8F0;
+        }
+        .footer-heart {
+            font-size: 28px;
+            display: block;
+            margin-bottom: 10px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+        }
+        .promises-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .promise-card {
+            background: #F0FFFE;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #E6FFFA;
+        }
+        .promise-card .icon {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        .heart-divider {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 20px;
+            color: #E53E3E;
+            letter-spacing: 12px;
+        }
+        a {
+            color: #2EB8C4;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .email-link {
+            display: inline-block;
+            background: #F0FFFE;
+            color: #2EB8C4;
+            padding: 10px 20px;
+            border-radius: 25px;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+        }
+        .email-link:hover {
+            background: #2EB8C4;
+            color: white;
+            text-decoration: none;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+            h1 {
+                font-size: 1.6em;
+            }
+            .promises-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>🏮 Privacy Policy</h1>
-        <p class="last-updated">Last Updated: November 6, 2025</p>
+        <p class="last-updated">Last Updated: February 2026</p>
         
         <h2>📱 Choose A Life You Love</h2>
-        <p>We take your privacy seriously. This policy explains how we handle your information.</p>
+        <p>We take your privacy seriously. This policy explains how we handle your information — spoiler: we don't collect any!</p>
         
         <div class="highlight">
-            <strong>🔐 Quick Summary:</strong> Everything stays on your device. We don't collect, store, or share any of your personal data.
+            <strong>🔐 Quick Summary:</strong>
+            <p>Everything stays on your device. We don't collect, store, or share any of your personal data. Your privacy isn't just a feature — it's our foundation.</p>
         </div>
+
+        <div class="heart-divider">❤️ ❤️ ❤️</div>
         
+        <h2>✨ Our Privacy Promises</h2>
+        <div class="promises-grid">
+            <div class="promise-card">
+                <div class="icon">🚫</div>
+                <strong>No Data Collection</strong>
+            </div>
+            <div class="promise-card">
+                <div class="icon">📱</div>
+                <strong>100% Local Storage</strong>
+            </div>
+            <div class="promise-card">
+                <div class="icon">🔒</div>
+                <strong>No Cloud Servers</strong>
+            </div>
+            <div class="promise-card">
+                <div class="icon">📊</div>
+                <strong>No Analytics</strong>
+            </div>
+            <div class="promise-card">
+                <div class="icon">🚫</div>
+                <strong>No Ads Ever</strong>
+            </div>
+            <div class="promise-card">
+                <div class="icon">🤝</div>
+                <strong>No Third Parties</strong>
+            </div>
+        </div>
+
         <h2>📊 Information We Collect</h2>
         <h3>Information You Provide:</h3>
         <ul>
-            <li><strong>Birth Date:</strong> Used only for age verification and determining if parental controls are needed</li>
-            <li><strong>User-Created Content:</strong> All milestones, steps, stories, and images are stored locally on your device only</li>
+            <li><strong>Birth Date:</strong> Used only for age verification and determining if parental controls are needed. Never transmitted anywhere.</li>
+            <li><strong>User-Created Content:</strong> All milestones, steps, storybooks, and images are stored locally on your device only.</li>
         </ul>
         
         <h2>🔒 How We Store Your Information</h2>
         <ul>
-            <li><strong>Local Storage:</strong> All data is stored securely on your device using iOS Keychain and Core Data</li>
-            <li><strong>No Cloud Storage:</strong> We do not collect, store, or transmit any data to our servers</li>
-            <li><strong>No Third Parties:</strong> We do not use third-party analytics, advertising, or tracking services</li>
+            <li><strong>Local Storage:</strong> All data is stored securely on your device using iOS Keychain and Core Data with encryption.</li>
+            <li><strong>No Cloud Storage:</strong> We do not collect, store, or transmit any data to servers — because we don't have any servers!</li>
+            <li><strong>No Third Parties:</strong> We do not use third-party analytics, advertising, or tracking services.</li>
         </ul>
         
         <h2>📸 Photo & Camera Access</h2>
@@ -92,24 +211,35 @@
         <ul>
             <li>Add photos to your milestones and steps</li>
             <li>Take photos directly within the app</li>
-            <li>Create visual storybooks of your journey</li>
+            <li>Create visual storybooks for your family</li>
         </ul>
         <p><strong>Your photos never leave your device.</strong></p>
+
+        <h2>🎬 YouTube Videos</h2>
+        <p>Steps in the app can include YouTube video links for tutorials or guidance:</p>
+        <ul>
+            <li>Videos are played using YouTube's embedded player</li>
+            <li>YouTube's own privacy policy applies during video playback</li>
+            <li>No YouTube data is stored by our app</li>
+            <li>For users under 18, video links require parental approval before being added</li>
+        </ul>
         
         <h2>👶 Children's Privacy (COPPA Compliance)</h2>
         <p>We take children's privacy very seriously:</p>
         <ul>
-            <li><strong>Age Verification:</strong> We require birth date for age verification only</li>
-            <li><strong>Parental Controls:</strong> For users under 18, we require parent PIN setup</li>
-            <li><strong>Parent Approval:</strong> All content created by children under 18 requires parent approval</li>
-            <li><strong>No Data Collection:</strong> We do not collect any personal information from children</li>
-            <li><strong>No Third Parties:</strong> We never share children's data with third parties</li>
+            <li><strong>Age Verification:</strong> We require birth date for age verification only — it never leaves your device</li>
+            <li><strong>Parental Controls:</strong> For users under 18, we require a separate parent PIN during setup</li>
+            <li><strong>Parent Approval:</strong> External links and videos require parent approval for under-18 users</li>
+            <li><strong>No Data Collection:</strong> We do not collect any personal information from children (or anyone!)</li>
+            <li><strong>No Third Parties:</strong> We never share anyone's data with third parties</li>
+            <li><strong>Safe Mode:</strong> Additional privacy controls for sensitive content</li>
         </ul>
         
         <h2>🔐 Data Security</h2>
         <ul>
-            <li><strong>PIN Protection:</strong> PINs are hashed using SHA-256 and stored in iOS Keychain</li>
-            <li><strong>Local Encryption:</strong> All data is protected by iOS encryption</li>
+            <li><strong>PIN Protection:</strong> PINs are hashed using PBKDF2 with salt (100,000 iterations) and stored in iOS Keychain</li>
+            <li><strong>Biometric Support:</strong> Face ID and Touch ID for convenient, secure access</li>
+            <li><strong>Local Encryption:</strong> All data is protected by iOS encryption (FileProtection.complete)</li>
             <li><strong>Rate Limiting:</strong> Account lockout after 5 failed login attempts (15-minute cooldown)</li>
             <li><strong>Secure Storage:</strong> All sensitive data uses Apple's secure Keychain technology</li>
         </ul>
@@ -117,38 +247,41 @@
         <h2>🗑️ Your Rights</h2>
         <p>You have complete control over your data:</p>
         <ul>
-            <li><strong>Access:</strong> All your data is accessible within the app</li>
+            <li><strong>Access:</strong> All your data is accessible within the app — it's YOUR data</li>
+            <li><strong>Export:</strong> You can export all your content from within the app</li>
             <li><strong>Delete:</strong> Deleting the app permanently removes all data from your device</li>
             <li><strong>No Server Data:</strong> Since we don't store data on servers, there's nothing to request from us</li>
-            <li><strong>Export:</strong> Your data stays on your device and can be backed up via iCloud (if you enable device backup)</li>
         </ul>
         
         <h2>🌍 International Users</h2>
-        <p>This app works entirely offline. Your data never leaves your device, regardless of your location.</p>
+        <p>This app works entirely offline. Your data never leaves your device, regardless of your location. No data crosses borders because no data goes anywhere!</p>
         
         <h2>📱 Third-Party Services</h2>
         <p><strong>We do not use any third-party services</strong> including:</p>
         <ul>
-            <li>❌ No analytics (Google Analytics, Firebase, etc.)</li>
+            <li>❌ No analytics (Google Analytics, Firebase, Mixpanel, etc.)</li>
             <li>❌ No advertising networks</li>
             <li>❌ No crash reporting services</li>
             <li>❌ No social media integrations</li>
             <li>❌ No cloud storage services</li>
+            <li>❌ No tracking of any kind</li>
         </ul>
+
+        <div class="heart-divider">❤️ ❤️ ❤️</div>
         
         <div class="developer-note">
-            <h2>👩‍💻 About the Developer</h2>
-            <p>Choose A Life You Love was created by a stay-at-home mom who wanted to build a tool to help families organize their goals and dreams together.</p>
+            <h2>💕 About the Developer</h2>
+            <p>Choose A Life You Love was created by a stay-at-home mum who wanted to build a tool to help families organise their goals and dreams together.</p>
             
-            <p>This app was developed with the assistance of AI tools (Claude by Anthropic) to ensure best practices in security, privacy, and child safety. While I've worked diligently to make this app secure and compliant, I'm committed to continuous improvement.</p>
+            <p>This app was developed with the assistance of AI tools (Claude by Anthropic) to ensure best practices in security, privacy, and child safety. I'm committed to continuous improvement and getting things right.</p>
             
             <p><strong>My commitment to you:</strong></p>
             <ul>
-                <li>✅ Your privacy comes first - I genuinely don't collect any data because I don't have servers!</li>
-                <li>✅ All data stays on your device - I couldn't access it even if I wanted to</li>
-                <li>✅ I'm responsive to feedback - if you find issues, I'll fix them</li>
+                <li>✅ Your privacy comes first — I genuinely don't collect any data because I don't have servers!</li>
+                <li>✅ All data stays on your device — I couldn't access it even if I wanted to</li>
+                <li>✅ I'm responsive to feedback — if you find issues, I'll fix them</li>
                 <li>✅ This is a passion project built with care for families like mine</li>
-                <li>✅ No tracking, no ads, no monetization of your data - ever</li>
+                <li>✅ No tracking, no ads, no monetisation of your data — ever</li>
             </ul>
             
             <p>If you have any concerns or find anything that doesn't work as described, please contact me. I'm learning and growing as a developer, and your feedback helps make this app better for everyone.</p>
@@ -158,26 +291,29 @@
         <p>We may update this privacy policy from time to time. We will notify you of changes by:</p>
         <ul>
             <li>Updating the "Last Updated" date at the top</li>
-            <li>Displaying a notice in the app (for significant changes)</li>
+            <li>Displaying a notice in the app for significant changes</li>
         </ul>
+
+        <h2>💳 Free Trial Period</h2>
+        <p>Choose A Life You Love is currently free during our launch period, which ends on October 17th, 2026. After this date, the app may continue as free, transition to a paid model, or be retired. Users will be notified of any changes in advance.</p>
         
         <h2>📧 Contact Us</h2>
-        <p>If you have questions about this privacy policy, contact us at:</p>
-        <p><strong>Email:</strong> choosealifeyoulove@icloud.com </p>
-        <p><strong>App Store:</strong> Leave a review or question on the App Store</p>
+        <p>If you have questions about this privacy policy, we'd love to hear from you:</p>
+        <p><a href="mailto:choosealifeyoulove@icloud.com" class="email-link">choosealifeyoulove@icloud.com</a></p>
         
         <h2>✅ Summary</h2>
         <div class="highlight">
-            <p><strong>What we collect:</strong> Birth date for age verification only</p>
-            <p><strong>What we store:</strong> Everything stays on your device</p>
-            <p><strong>What we share:</strong> Nothing. Ever.</p>
+            <p><strong>What we collect:</strong> Birth date for age verification only (stays on device)</p>
+            <p><strong>What we store:</strong> Everything stays on YOUR device</p>
+            <p><strong>What we share:</strong> Nothing. Ever. With anyone.</p>
             <p><strong>Your control:</strong> Delete the app = delete all data</p>
-            <p><strong>Who made this:</strong> A real person who cares about your privacy</p>
+            <p><strong>Who made this:</strong> A real person who genuinely cares about your family's privacy</p>
         </div>
         
         <div class="footer">
-            <p>© 2024 Choose A Life You Love</p>
-            <p><small>Made with 💕 by a stay-at-home mom who believes in privacy, family, and building a life you love</small></p>
+            <span class="footer-heart">❤️</span>
+            <p>© 2026 Choose A Life You Love</p>
+            <p><small>Made with love by a stay-at-home mum who believes in privacy, family, and building a life you love</small></p>
         </div>
     </div>
 </body>
